@@ -1,8 +1,19 @@
+<script setup lang="ts">
+const value = ref(-23)
+const absValue = useAbs(value)
+function increment(): number {
+  return value.value++
+}
+const a = increment()
+</script>
+
 <template>
-  2
+  <div>
+    {{ value }} -  {{ a }} -- {{ absValue }}
+  </div>
 </template>
 
-  <route lang="yaml">
+<route lang="yaml">
   meta:
       layout: home
   </route>
