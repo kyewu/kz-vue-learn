@@ -1,61 +1,30 @@
-# kz-vue-template
+## kz-vue-template
+---
+This is a template with vue3.4x.
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Plugins
+---
+- CSS library
+  - [UnoCss](https://github.com/antfu/unocss)
+- [Vue Router](https://github.com/vuejs/router) - official router
+  - [unplugin-vue-router](https://github.com/posva/unplugin-vue-router) - router based on files
+  - [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts) - page layout
+- [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) - auto import components
+- [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) - auto import
+- [VueUse](https://github.com/antfu/vueuse) - Composition API tools collection
+- [Vue Macros](https://vue-macros.dev/zh-CN/guide/bundler-integration.html) - Defines extension
+- Code Style
+  - [Eslint](https://eslint.org/) use [@antfu/eslint-config](https://github.com/antfu/eslint-config)
+- Commit Plugins
+  - [husky version 9.x](https://typicode.github.io/husky/get-started.html)
+  - [lint-staged](https://typicode.github.io/husky/get-started.html)
+  - [commit lint](https://commitlint.js.org/guides/local-setup.html)
 
 ## Project Setup
-
 ```sh
 pnpm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
+## Compile and Hot-Reload for Development
+```
 pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-pnpm test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-pnpm test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-pnpm build
-pnpm test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
 ```
