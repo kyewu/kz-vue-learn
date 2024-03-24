@@ -1,11 +1,7 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    404, Page Not Found
-  </div>
+  <div>404, Page Not Found</div>
 </template>
 
 <route lang="yaml">

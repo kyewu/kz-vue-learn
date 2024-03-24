@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   extends: ['@commitlint/config-conventional'],
   rules: {
     // type 类型定义，表示 git 提交的 type 必须在以下类型范围内

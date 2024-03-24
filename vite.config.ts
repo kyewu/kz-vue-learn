@@ -23,9 +23,7 @@ export default defineConfig({
     }), // VueRouter must be placed before Vue
     vue(),
     Pages({
-      dirs: [
-        { dir: 'src/pages', baseRoute: '' },
-      ],
+      dirs: [{ dir: 'src/pages', baseRoute: '' }],
       exclude: ['**/*.js', '**/components/*.vue'],
     }),
     Layouts({
