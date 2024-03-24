@@ -6,9 +6,7 @@
     "baseUrl": ".",
     "moduleResolution": "Node",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"]
     },
     "types": [
       "vite-plugin-vue-layouts/client",
@@ -24,10 +22,5 @@
     "src/auto-imports.d.ts",
     "src/components.d.ts"
   ],
-  "exclude": [
-    "src/**/__tests__/*",
-    "dist",
-    "node_modules",
-    "cypress"
-  ]
+  "exclude": ["src/**/__tests__/*", "dist", "node_modules", "cypress"]
 }
