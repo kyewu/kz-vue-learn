@@ -16,7 +16,8 @@
     "format": "prettier --write src/",
     "prettier": "prettier --write .",
     "lint-staged": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit --verbose"
   },
   "dependencies": {
     "@unocss/reset": "^0.58.6",
