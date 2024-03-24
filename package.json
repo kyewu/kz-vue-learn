@@ -15,7 +15,6 @@
     "type-check": "vue-tsc --build --force",
     "format": "prettier --write src/",
     "lint-staged": "lint-staged",
-    "lint-format": "pnpm lint-staged --allow-empty -- --fix && pnpm format",
     "prepare": "husky",
     "commitlint": "commitlint --edit --verbose"
   },
