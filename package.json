@@ -14,9 +14,9 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
     "format": "prettier --write src/",
-    "prettier": "prettier --write .",
     "lint-staged": "lint-staged",
-    "prepare": "husky install",
+    "lint-format": "pnpm lint-staged -- --fix && pnpm format",
+    "prepare": "husky",
     "commitlint": "commitlint --edit --verbose"
   },
   "dependencies": {
@@ -55,7 +55,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-cypress": "^2.15.1",
     "eslint-plugin-vue": "^9.17.0",
-    "husky": "8.0.3",
+    "husky": "^9.0.11",
     "jsdom": "^24.0.0",
     "lint-staged": "^15.2.2",
     "npm-run-all2": "^6.1.2",
