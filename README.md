@@ -1,9 +1,7 @@
 ## kz-vue-template
----
 This is a template with vue3.4x.
 
 ## Plugins
----
 - CSS library
   - [UnoCss](https://github.com/antfu/unocss)
 - [Vue Router](https://github.com/vuejs/router) - official router
